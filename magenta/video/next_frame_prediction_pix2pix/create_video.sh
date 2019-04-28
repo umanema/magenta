@@ -181,7 +181,7 @@ else
                --limit 100
 # 100 is the default value, you can play with it and will get diferents results
         echo "use pre-recursion"
-        python pix2pix-tensorflow-0.1/main.py \
+        python2 pix2pix-tensorflow-0.1/main.py \
                --checkpoint_dir $1 \
                --recursion 15 \
                --phase pre_recursion \
